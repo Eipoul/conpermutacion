@@ -1,0 +1,298 @@
+@charset "UTF-8";
+a{text-decoration:none;}
+body{margin:0;padding:0;font-family:'Oswald',sans-serif;font-weight:300; background:rgba(255,255,255,1) url(../img/bg.jpg) repeat;}
+img{border:none;}
+.oculto{display:none;}
+header {
+	margin:0;
+	width:100%;
+	height:100px;
+	position:fixed;
+	z-index:100;
+	top:0;
+	border-bottom:rgba(0,0,0,1) 1px solid;
+	box-shadow:rgba(0,0,0,0.8) 0px 0px 10px;
+	background:rgba(255,255,255,1);
+}
+.dissapear{
+	display:none;	
+}
+.appear{
+	display:block;
+}
+header h1{float:left; margin-top:21px;}
+header nav{float:right;margin:0;padding:0;}
+header nav a{display:block;color:rgba(0,0,0,1); font-size:22px; text-transform:uppercase;}
+header nav ul{line-height:100px;list-style:none;margin:0;padding:0;}
+header nav>ul>li{float:left;width:185px;text-align:center;margin:0;padding:0;}
+header nav>ul>li:first-child:hover{border-top:rgba(132,132,132,1) 6px solid; line-height:88px;}
+header nav>ul>li:hover{border-top:rgba(169,169,169,1) 6px solid; line-height:88px;}
+header nav>ul>li:last-child:hover{border-top:rgba(198,199,198,1) 6px solid; line-height:88px;}
+header nav>ul>li:last-child{margin-right:0px;}
+.main-wrapper{width:1050px; padding:0 30px 0 30px; margin:0 auto;}
+#espacio-top{height:124px; width:100%;}
+section#work{
+	margin-top:95px;
+}
+section#work ul{
+	list-style:none;
+	padding:0;
+	margin:0;	
+}
+section#work ul li{
+	padding:0px;
+	float:left;	
+	margin:9px;
+	margin-right:15px;
+}
+section#work ul li.first{
+	margin-left:0px !important;	
+}
+section#work ul li:nth-of-type(4n+0){
+	margin-right:0px !important;	
+}
+section#info{
+	padding-top:100px;
+	clear:both;
+	text-align:center;	
+}
+section#info p{
+	font-size:15px;
+	letter-spacing:0px;
+	margin-bottom:30px;
+	line-height:30px;	
+}
+/* MENUS */
+
+section#info nav>ul{
+	display:block;
+	padding:0;
+	margin:0 auto;
+	margin-top:80px;
+	width:1050px;
+	list-style:none;	
+}
+section#info nav>ul>li{
+	letter-spacing:3px;
+	text-transform:uppercase;
+	/*
+	border-right:rgba(0,0,0,1) 1px solid;
+	border-left:rgba(0,0,0,1) 1px solid;
+	*/
+	width:349px;
+	font-size:15px;
+	float:left;	
+}
+section#info nav>ul>li:first-child, section#info nav>ul>li:last-child{
+	border:none;	
+}
+section#info nav>ul>li>ul{
+	padding:0;
+	margin:0 auto;
+	width:259px;	
+}
+section#info nav>ul>li>ul:hover{
+	background:rgba(237,237,237,1);	
+}
+section#info nav>ul>li>ul:hover>li{
+	display:block;	
+	background:rgba(0,0,0,1);
+	color:rgba(255,255,255,1);
+}
+section#info nav>ul>li>ul:hover>li:first-child{
+	background:none !important;
+	color:rgba(0,0,0,1) !important;
+}
+section#info nav>ul>li>ul:hover>li>a{
+	color:rgba(255,255,255,1);
+}
+.raya{	
+}
+.flecha-arriba{
+	width:19px;
+	height:11px;
+	background:url(../img/flecha_arriba.png);
+	background-size:19px 11px;
+	position:absolute;
+	margin-top:-10px;
+}
+.flecha-1{
+	margin-top:-24px;
+	margin-left:34px;
+}
+.flecha-2{
+	margin-top:-24px;
+	margin-left:99px;
+}
+.flecha-3{
+	margin-top:-10px;
+	margin-left:34px;
+}
+.raya_abajo{
+	width:100%;
+	display:block;
+	position:relative;
+	margin:0 auto;
+	z-index:100;
+	height:1px;
+	background:rgba(255,255,255,1);	
+}
+.raya_abajo-2{
+	width:50%;
+	display:block;
+	position:relative;
+	margin:0 auto;
+	z-index:100;
+	height:1px;
+	background:rgba(255,255,255,1);	
+}
+section#info nav>ul>li>ul.primero{
+	width:128px;
+	margin:0 auto;
+	letter-spacing:1px;
+}
+section#info nav>ul>li>ul:hover{
+	cursor:pointer;
+}
+section#info nav>ul>li>ul>li{
+	display:none;
+	height:30px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:13px;
+	padding-bottom:10px;
+	line-height:40px;
+	font-size:13px;
+	letter-spacing:0.75px;
+}
+section#info nav>ul>li>ul>li.imdb{
+	height:56px !important;
+	padding-top:0px !important;
+	padding-bottom:0px !important;
+	line-height:56px !important;
+}
+section#info nav>ul>li>ul>li>a:hover{
+	text-decoration:underline;	
+}
+section#info nav>ul>li>ul>li:last-child{
+	height:30px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:0px;
+	padding-bottom:24px;
+	line-height:40px;
+	font-size:13px;
+	letter-spacing:0.75px;
+}
+section#info nav>ul>li>ul>li:first-child{
+	display:block;
+	padding:0;
+	letter-spacing:1px;
+	font-size:15px;
+	height:51px;
+	line-height:51px;
+}
+
+/* FIN MENUS */
+.jon{
+	margin-top:38px;
+	margin-bottom:10px;	
+}
+section#contact{padding-top:415px;}
+section#contact form{width:380px; margin:0 auto;}
+.row{width:340px;height:30px;margin-bottom:16px; margin-left:-10px;clear:both;}
+.col1{width:78px;padding-right:10px; line-height:30px;float:left;text-align:right; letter-spacing:1.5px; font-size:16px;}
+.col2{width:252px;float:right;}
+section#contact input[type=text], section#contact textarea{
+	background:rgba(239,239,240,1);
+	width:252px;
+	border:none;
+	border-left:rgba(55,55,55,1) 2px solid;	
+	font-family:'Oswald',sans-serif;
+	font-weight:300;
+	font-size:16px;
+}
+section#contact input[type=text]{
+	height:30px;	
+}
+section#contact textarea{
+	height:104px;
+	resize:none;	
+}
+section#contact input[type=submit]{
+	margin-top:10px;
+	width:84px;
+	height:30px;
+	background:rgba(0,0,0,1);
+	border:none;
+	font-size:16px;
+	color:rgba(255,255,255,1);
+	text-transform:uppercase;	
+	font-family:'Oswald',sans-serif;
+	font-weight:300;
+	letter-spacing:3px;
+}
+.hover{
+	padding-top:6px;
+	padding-left:10px;
+	width:234px;
+	height:234px;
+	position:absolute;
+	opacity:0;
+	transition:all 1s;
+	background:rgba(0,0,0,0.7);	
+}
+#work ul li a{
+	width:244px;
+	height:244px;
+	overflow:hidden;
+	color:rgba(255,255,255,1);
+	font-size:15px;
+	font-weight:400;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	text-indent:2px;	
+}
+.hover:hover{
+	opacity:1;
+	transition:all 1s;
+}
+footer{margin-top:276px;}
+footer .content{
+	letter-spacing:1px;
+	padding-bottom:10px;
+	font-size:12px;
+	font-weight:300;
+	float:left;
+	width:320px;
+	text-align:center;
+	border-bottom:rgba(0,0,0,1) 6px solid;	
+}
+footer .icon{
+	float:right;
+	margin-right:15px;	
+}
+footer .icon img{
+	opacity:1;
+	transition:all 0.5s;	
+}
+footer .icon img:hover{
+	opacity:0.6;
+	transition:all 0.5s;	
+}
+.vimeo-video{
+	width:90%;	
+}
+.vimeo-video iframe{	
+}
+.conocenos{text-align:center;}
+.ch1{
+	position:absolute;
+	margin-top:14px;
+	margin-left:308px;
+}
+.ch2{
+	position:absolute;
+	margin-top:14px;
+	margin-left:385px;	
+}
